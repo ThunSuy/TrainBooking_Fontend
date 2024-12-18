@@ -1,0 +1,73 @@
+.refund {
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .refund_title {
+        margin: 20px 0 10px;
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--text-color);
+
+        span {
+            font-weight: bold;
+            margin-right: 4px;
+        }
+    }
+
+    .refund_wrap {
+        display: flex;
+        align-items: center;
+        padding: 0 40px;
+
+        .refund_wrap_left {
+            display: flex;
+            align-items: center;
+            flex: 1.6;
+
+            span {
+                font-size: 16px;
+                color: var(--text-color);
+                font-weight: bold;
+            }
+
+            input {
+                height: 30px;
+                padding: 5px 10px;
+                font-size: 14px;
+                line-height: 1.5;
+                border-radius: 3px;
+                color: var(--text-color);
+                border: 1px solid #ccc;
+                outline-color: #90caec;
+                flex: 1;
+                margin-left: 20px;
+                &:focus {
+                    box-shadow: 0 0 5px rgba(5, 93, 255, 0.5); 
+                }
+            }
+
+        }
+
+        .refund_wrap_right {
+            flex: 3;
+            display: flex;
+            align-items: center;
+            padding-left: 50px;
+
+            .refund_wrap_right-text {
+                font-size: 16px;
+                color: var(--text-color);
+                padding: 5px 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-left: 5px;
+            }
+        }
+    }
+}

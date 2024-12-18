@@ -1,0 +1,67 @@
+.TrainSeat {
+
+
+    .TrainSeat_title {
+        color: #317eac;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .TrainSeat_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .TrainSeat_wrap_left {
+            width: 25px;
+            border-right: 3px solid #385d8a;
+            border-top: 3px solid #385d8a;
+            border-bottom: 3px solid #385d8a;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            height: 176px;
+            float: left;
+            line-height: 176px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover .TrainSeat_wrap_icon {
+                color: var(--black);
+            }
+        }
+
+        .TrainSeat_wrap_right {
+            width: 25px;
+            border-left: 3px solid #385d8a;
+            border-top: 3px solid #385d8a;
+            border-bottom: 3px solid #385d8a;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            height: 176px;
+            float: left;
+            line-height: 176px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover .TrainSeat_wrap_icon {
+                color: var(--black);
+            }
+        }
+
+        .TrainSeat_wrap_mid {
+            border-radius: 10px;
+            border: 3px solid #385d8a;
+            margin: 0;
+            padding: 5px 10px;
+            height: 176px;
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .TrainSeat_wrap_icon {
+            font-size: 16px;
+            color: var(--text-color);
+        }
+    }
+}

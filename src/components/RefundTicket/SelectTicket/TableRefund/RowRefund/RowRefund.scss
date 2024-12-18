@@ -1,0 +1,32 @@
+.rowRefund_table_tr {
+
+    .rowRefund_table_td{
+        border: 1px solid #ccc;
+        text-align: left;
+        padding: 8px 8px;
+        color: var(--text-color);
+        font-size: 16px;
+
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    .rowRefund_table_td:nth-child(4),
+    .rowRefund_table_td:nth-child(6),
+    .rowRefund_table_td:nth-child(7){
+        text-align: right;
+    }
+
+    .rowRefund_table_td:nth-child(1),
+    .rowRefund_table_td:nth-child(9){
+        text-align: center;
+    }
+
+}

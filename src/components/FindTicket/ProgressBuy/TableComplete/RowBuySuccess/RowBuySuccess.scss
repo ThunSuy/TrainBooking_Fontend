@@ -1,0 +1,19 @@
+.rowBuySuccess_table_tr {
+    
+    .rowBuySuccess_table_td,
+    .rowBuySuccess_table_td_book {
+        border: 1px solid #ccc;
+        text-align: left;
+        padding: 8px 8px;
+        color: var(--text-color);
+        font-size: 16px;
+    }
+    .rowBuySuccess_table_td:nth-child(1),
+    .rowBuySuccess_table_td:nth-child(2){
+        color: #333;
+    }
+
+    .rowBuySuccess_table_td:nth-child(7){
+        text-align: right;
+    }
+}

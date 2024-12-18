@@ -1,0 +1,72 @@
+.tableBooking_wrapper {
+
+    .tableBooking_wrapper_title {
+        font-size: 16px;
+        color: var(--title-color);
+        font-weight: bold;
+    }
+
+    .tableBooking_con {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        .tableBooking_table {
+            border-collapse: collapse;
+            width: 100%;
+
+            .confirmInfo_table_title {
+                font-size: 16px;
+                color: #0082c0;
+                background-color: #d9edf7;
+                font-weight: bold;
+                padding: 10px 0 10px 10px;
+                text-align: left;
+                border-left: 1px solid #ccc;
+                border-right: 1px solid  #ccc;
+
+                span {
+                    font-size: 16px;
+                    margin-left: 5px;
+                    color: #0082c0;
+                    font-weight: 100;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .tableBooking_table_th
+            {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+                font-size: 14px;
+                background-color: #eee;
+                text-align: center;
+            }
+
+            .tableBooking_table_th:nth-child(1) { width: 3%; }
+            .tableBooking_table_th:nth-child(2) { width: 15%; }
+            .tableBooking_table_th:nth-child(3) { width: 8%; }
+            .tableBooking_table_th:nth-child(4) { width: 8%; }
+            .tableBooking_table_th:nth-child(5) { width: 13%; }
+            .tableBooking_table_th:nth-child(6) { width: 10%; }
+            .tableBooking_table_th:nth-child(7) { width: 8%; }
+            .tableBooking_table_th:nth-child(8) { width: 5%; }
+        }
+    }
+    .tableTicket_table_footer {
+        background-color: #d9edf7;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding: 10px 10px;
+
+        .tableTicket_table_footer-text {
+            font-size: 18px;
+            color: var(--text-color);
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.confirm {
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .tableRefund_wrapper_title {
+        font-size: 18px;
+        color: var(--title-color);
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .confirm_wrap {
+
+        .confirm_wrap_item {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+
+            .confirm_wrap_item_title {
+                background-color: #d9edf7;
+                font-size: 16px;
+                line-height: 22px;
+                color: #317eac;
+                padding: 15px;
+                font-weight: bold;
+            }
+
+            .confirm_wrap_item_con {
+                padding: 20px 10px 0 10px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+
+        .confirm_wrap_last {
+            background-color: #eee;
+            padding: 15px 20px 10px 20px;
+            display: flex;
+            align-items: center;
+
+            .confirm_wrap_last-left {
+                flex: 3;
+
+            }
+
+            .confirm_wrap_last-right {
+                flex: 7;
+
+            }
+
+            .confirm_wrap_last-text {
+                font-size: 18px;
+                color: #777;
+                margin-bottom: 10px;
+
+                span {
+                    font-weight: bold;
+                    margin-right: 4px;
+                }
+            }
+        }
+
+        .confirm_wrap_ft {
+
+            .confirm_wrap_ft_select {
+                display: flex;
+                align-items: center;
+                p {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 30px;
+                    input {
+                        height: 14px;
+                        width: 14px;
+                        margin-right: 5px;
+                    }
+
+                    span {
+                        font-size: 16px;
+
+                    }
+                }
+            }
+        }
+    }
+}

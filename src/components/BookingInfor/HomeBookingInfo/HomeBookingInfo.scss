@@ -1,0 +1,28 @@
+.homeBookingInfo {
+    display: block;
+    padding-top: 10px;
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .homeBookingInfo_tt {
+        padding: 0 80px;
+    }
+
+    .homeCheckTicket_formErorr {
+        font-size: 25px;
+        font-weight: bold;
+        color: #b94a48;
+        background-color: #f2dede;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+        user-select: none;
+    }
+}

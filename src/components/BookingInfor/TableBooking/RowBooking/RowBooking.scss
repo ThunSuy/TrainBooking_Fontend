@@ -1,0 +1,33 @@
+.rowBooking_table_tr {
+    user-select: none;
+
+    .rowBooking_table_td{
+        border: 1px solid #ccc;
+        text-align: left;
+        padding: 8px 8px;
+        color: var(--text-color);
+        font-size: 16px;
+
+        span {
+            font-size: 16px;
+            color: #0082c0;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .rowBooking_table_td:nth-child(3),
+    .rowBooking_table_td:nth-child(2){
+        color: #333;
+    }
+
+    .rowBooking_table_td:nth-child(1),
+    .rowBooking_table_td:nth-child(8){
+        text-align: center;
+        
+    }
+    
+    
+}

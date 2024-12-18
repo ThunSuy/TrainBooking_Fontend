@@ -1,0 +1,61 @@
+
+.formInfoPeople_info {
+    .formInfoPeople_header {
+        font-size: 16px;
+        color: var(--title-color);
+        font-weight: bold;
+    }
+    .formInfoPeople_content {
+        padding: 20px 0;
+
+        .formInfoPeople_form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .form_wrapper {
+                width: 47%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+
+                .form_wrapper-title {
+                    display: flex;
+                    align-items: center;
+                    flex: 3;
+
+                    .form_wrapper-title-text{
+                        font-size: 14px;
+                        color: var(--text-color);
+
+                    }
+                    .form_wrapper-title-act {
+                        font-size: 14px;
+                        color: var(--title-color);
+                        margin-left: 2px;
+                    }
+                }
+
+                .form_wrapper_ip {
+                    flex: 6;
+                    height: 30px;
+                    padding: 5px 10px;
+                    font-size: 12px;
+                    line-height: 1.5;
+                    border-radius: 3px;
+                    color: var(--text-color);
+                    border: 1px solid #ccc;
+                    outline: none;
+                    cursor: not-allowed;
+
+                    &:focus {
+                        box-shadow: 0 0 5px rgba(10, 182, 250, 0.5); 
+                    }
+                }
+            }
+        }
+    }
+
+}

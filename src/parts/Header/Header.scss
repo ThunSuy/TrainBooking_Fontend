@@ -1,0 +1,105 @@
+.header {
+    padding-bottom:  35px;
+    user-select: none;
+
+    .header_wrapper {
+        display: flex;
+        width: 1300px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        border-radius: 100px;
+        background-color: var(--primary);
+        box-shadow: rgba(0, 145, 212, 0.19) 0px 10px 20px, rgba(0, 145, 212, 0.23) 0px 6px 6px;
+
+
+        .header_logo {
+            user-select: none;
+            background-color: var(--primary);
+        }
+
+        .topnav {
+            overflow: hidden;
+            border-radius: 15px;
+            
+
+            a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+                font-size: 15px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            a:hover {
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+
+            a.active {
+                background-color:var(--white);
+                color: var(--primary);
+            }
+        }
+    }
+
+    .top_login {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background-color: rgba(32, 82, 105, 0.23);
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 20px;
+        user-select: none;
+
+        .top_login_icon {
+            font-size: 18px;
+            padding: 5px 5px 7px;
+            color: white;
+            border: 1px solid white;
+            border-radius: 50%;
+            margin-right: 4px;
+        }
+
+        span {
+            font-size: 18px;
+            color: white;
+        }
+
+        .top_login_wrap {
+            z-index: 10;
+            position: absolute;
+            top: 46px;
+            left: 0;
+            
+
+            .top_login_wrap_body {
+                
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                background-color: white;
+                min-width: 180px;
+                border-radius: 5px;
+                overflow: hidden;
+
+
+                .top_login_wrap_body_item {
+                    cursor: pointer;
+                    font-size: 18px;
+                    color: #555;
+                    font-weight: 500;
+                    padding: 5px 10px;
+                    user-select: none;
+    
+                    &:hover {
+                        background-color: #e7e5e5;
+                    }
+                }
+            }
+        }
+    }
+}
+

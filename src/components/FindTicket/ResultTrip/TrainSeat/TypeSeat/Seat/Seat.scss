@@ -1,0 +1,105 @@
+
+
+    .TNM56_seat_con-seat {
+        padding: 6px 0;
+        text-align: center;
+        width: 28px;
+        border: 1px solid #948a54;
+        border-radius: 5px;
+        position: relative;
+        user-select: none;
+
+        
+        .TNM56_seat_con-num {
+            font-size: 16px;
+
+        }
+
+        &:hover .seat_hover {
+            display: block;
+        }
+    }
+
+    .seat_hover {
+        display: none;
+        position: absolute;
+        top: -95px;
+        left: 0;
+        width: 170px;
+        left: -72px;
+        background-color: var(--white);
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        z-index: 2;
+        
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: -12px; // Xuống dưới thêm 1px để làm viền
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left:12px solid transparent; // Tăng kích thước tam giác lớn hơn
+            border-right:12px solid transparent;
+            border-top:12px solid #ccc; // Màu viền
+            z-index: 1;
+        }
+        
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -11px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 11px solid transparent; // Tam giác bên trong
+            border-right: 11px solid transparent;
+            border-top: 11px solid var(--white); // Màu nền của tam giác
+            z-index: 2;
+        }
+        
+
+        .seat_hover-text {
+            font-size: 18px;
+            background-color: #f5f5f5;
+            width: 100%;
+            padding: 10px;
+            color: #333;
+            text-align: left;
+        }
+
+        .seat_hover-price {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+            color: var(--text-color);
+            text-align: left;
+        }
+    }
+
+    .seat_booked {
+        color: var(--white);
+        background-color: var(--backgr-seat);
+    }
+
+    .seat_active {
+        color: var(--white);
+        background-color: #A6B727;
+        cursor: pointer;
+
+        &:hover .TNM56_seat_con-num{
+            font-weight: bold;
+        }
+    }
+
+    .seat_empty {
+        color: var(--text-color);
+        background-color: var(--white);
+        cursor: pointer;
+
+        &:hover .TNM56_seat_con-num{
+            font-weight: bold;
+        }
+    }

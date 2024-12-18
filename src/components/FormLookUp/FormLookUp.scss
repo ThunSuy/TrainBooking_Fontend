@@ -1,0 +1,100 @@
+.formLookUp {
+    padding: 20px 0 10px;
+
+    .formLookUp_title {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--text-color);
+        margin-left: 10px;
+    }
+
+    .formLookUp_wrap {
+        margin-top: 10px;
+        .formLookUp_form {
+
+            .form_container {
+                display: flex;
+                align-items: center;
+                padding: 8px 0;
+
+                .form_container_text {
+                    font-size: 16px;
+                    color: var(--text-color);
+                    font-weight: bold;
+                    padding-right: 10px;
+                    flex: 2;
+                    text-align: right;
+
+                    span {
+                        color: #ff0000;
+                        margin-left: 5px;
+                    }
+                }
+
+                input {
+                    flex: 3.3;
+                    height: 30px;
+                    padding: 5px 10px;
+                    font-size: 12px;
+                    line-height: 1.5;
+                    border-radius: 3px;
+                    color: var(--text-color);
+                    border: 1px solid #ccc;
+                    outline: none;
+
+                    &:focus {
+                        box-shadow: 0 0 5px rgba(10, 182, 250, 0.5); 
+                    }
+                }
+
+                .form_container_erorr {
+                    flex: 5;
+                    font-size: 16px;
+                    color: #b94a48;
+                    margin-left: 10px;
+                }
+            }
+
+        }
+
+        .formLookUp_button {
+            flex: 3.3;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            padding-right: 20px;
+
+            .formLookUp_btn {
+                font-size: 16px;
+                font-weight: bold;
+                color: var(--white);
+                cursor: pointer;
+                padding: 8px 12px;
+                background-color: #2fa4e7;
+                border-radius: 5px;
+                border: 1px solid #2fa4e7;
+                user-select: none;
+
+                &:hover {
+                    opacity: 0.9;
+                    border-color: rgb(37, 37, 216);
+                }
+            }
+
+            .formLookUp_forgot {
+                font-size: 16px;
+                color: #2fa4e7;
+                cursor: pointer;
+                margin-left: 10px;
+
+                &:hover {
+                    color: #157ab5;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+
+
+}

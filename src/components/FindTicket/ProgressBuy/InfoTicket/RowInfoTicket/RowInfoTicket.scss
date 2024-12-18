@@ -1,0 +1,83 @@
+.payTicket_table_tr {
+
+    .payTicket_table_td {
+        border: 1px solid #ddd;
+        text-align: left;
+        padding: 0 8px;
+        color: #333;
+        font-size: 12px;
+
+        .table_td-trip-text {
+            font-size: 14px;
+            margin: 6px 0;
+        }
+
+        img {
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+        }
+
+        .table_td-trip-text:first-child {
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .table_td_info {
+            display: flex;
+            border-radius: 4px;
+            overflow: hidden;
+            border: 1px solid #ddd;
+            height: 30px;
+            align-items: center;
+            margin: 8px 0;
+
+            .table_td_info-name {
+                width: 84px;
+                height: 100%;
+                line-height: 30px;
+                text-align: center;
+                font-size: 12px;
+                background-color: #eee;
+                color: var(--text-color);
+            }
+
+            input {
+                color: var(--text-color);
+                flex: 1;
+                border: 1px solid #ddd;
+                height: 100%; 
+                outline-color: #90caec;
+                padding: 4px 5px;
+
+                &.ip_disabled {
+                    cursor: not-allowed;
+                }
+            }
+
+
+            select {
+                color: var(--text-color);
+                flex: 1;
+                border: 1px solid #ddd;
+                height: 100%;
+                outline-color: #90caec;
+            }
+        }
+    }
+
+    .payTicket_table_td:nth-child(3),
+    .payTicket_table_td:nth-child(4),
+    .payTicket_table_td:nth-child(5){
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .payTicket_table_td:nth-child(6){
+        text-align: center;
+    }
+
+    .payTicket_table_td_imgDel {
+        user-select: none;
+    }
+}

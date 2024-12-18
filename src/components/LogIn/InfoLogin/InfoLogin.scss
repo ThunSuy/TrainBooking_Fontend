@@ -1,0 +1,118 @@
+.infoLogin {
+
+
+
+    .infoLogin_wrap_title {
+        font-size: 26px;
+        color: #317eac;
+    }
+
+    .infoLogin_wrap_noti {
+        margin: 15px 0;
+        background-color: #f2dede;
+        padding: 12px 12px 8px 12px;
+        border-radius: 5px;
+
+        p {
+            color: #b94a48;
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 4px;
+        }
+    }
+
+    .infoLogin_wrap_noti1 {
+        margin: 15px 0;
+        background-color: #d9edf7;
+        padding: 12px 12px 8px 12px;
+        border-radius: 5px;
+
+        p {
+            color: #317eac;
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 4px;
+        }
+    }
+
+    .infoLogin_wrap_content {
+        padding: 20px 40px;
+
+        .infoLogin_wrap_content_item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+
+            span {
+                font-size: 18px;
+                color: var(--text-color);
+                flex: 2;
+            }
+
+            p {
+                flex: 4;
+                font-size: 14px;
+                color: #b94a48;
+                margin-left: 10px;
+            }
+
+            input {
+                flex: 6;
+                height: 30px;
+                padding: 5px 10px;
+                font-size: 12px;
+                line-height: 1.5;
+                border-radius: 3px;
+                color: var(--text-color);
+                border: 1px solid #ccc;
+                outline: none;
+                // cursor: not-allowed;
+
+                &:focus {
+                    box-shadow: 0 0 5px rgba(10, 182, 250, 0.5); 
+                }
+            }
+
+            .not_allowed {
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    .infoLogin_wrap_button {
+        padding: 0 40px 10px;
+
+        .infoLogin_wrap_button-btn1 {
+            font-size: 16px;
+            color: var(--white);
+            background-color: #2fa4e7;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 1px solid #2fa4e7;
+            cursor: pointer;
+            user-select: none;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+
+        .infoLogin_wrap_button-btn2 {
+            font-size: 16px;
+            color: var(--white);
+            background-color: rgb(8, 202, 8);
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 1px solid rgb(8, 202, 8);
+            cursor: pointer;
+            user-select: none;
+
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+
+}

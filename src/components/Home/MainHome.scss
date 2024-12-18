@@ -1,0 +1,191 @@
+.mainHome {
+    position: relative;
+
+    .headerHome {
+        position: relative;
+        .headerHome_wrap {
+            width: 100%;
+            height: 500px;
+            position: relative;
+    
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+    
+            .headerHome_wrap_fixed {
+                color: var(--white);
+                background-color: rgba(0, 0, 0, 0.4);
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding-top:50px;
+                padding-left: 50px;
+                border-radius: 10px;
+                
+                .headerHome_wrap_fixed-text1 {
+                    font-size: 40px;
+                    font-weight: bold;
+                    user-select: none;
+                }
+    
+                .headerHome_wrap_fixed-text2{
+                    font-size: 70px;
+                    font-weight: bold;
+                    user-select: none;
+                }
+            }
+        }
+
+        .tripHome {
+            position: absolute;
+            bottom: -160px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            user-select: none;
+
+            .tripHome_wrapper {
+                width: 900px;
+                background-color: var(--white);
+                padding: 20px;
+                border-radius: 20px;
+                box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 25px;
+        
+                .tripHome_wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .tripHome_wrap_item {
+                        width: 23.1%;
+                        padding: 10px;
+                        border-radius: 5px;
+                        box-shadow: 0px 5px 5px 0px rgba(76, 76, 76, .1);
+                        border: 1px solid #eceeeb;
+                        transition: transform 0.2s ease, box-shadow 0.2s ease;
+                        cursor: pointer;
+        
+                        img {
+                            width: 100%;
+                            height: 120px;
+                            border-radius: 5px;
+                        }
+        
+                        .tripHome_wrap_item-name {
+                            font-size: 18px;
+                            color: var(--primary1);
+                            font-weight: bold;
+                            margin: 6px 0;
+                        }
+        
+                        .tripHome_wrap_item-price {
+                            font-size: 14px;
+                            color: var(--text-color);
+                        }
+
+                        &:hover{
+                            transform: translateY(-3px); 
+                            box-shadow: 0px 8px 10px 0px rgba(76, 76, 76, 0.2); 
+                          }
+                          &:hover .tripHome_wrap_item-name {
+                            color: rgb(17, 188, 255);
+                          }
+                    }
+                }
+            }
+        }
+    }
+    
+    .stationHome {
+        padding-top: 190px;
+
+        .stationHome_con {
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+            padding: 20px 10px;
+            border-radius: 10px;
+
+            .stationHome_title {
+                font-size: 24px;
+                font-weight: bold;
+                color: #555;
+                margin-bottom: 15px;
+            }
+    
+            .stationHome_left {
+                flex: 1.5;
+                border-right: 2px solid #ccc;
+    
+                .stationHome_left_wrap {
+                    display: flex;
+    
+                    .stationHome_left_wrap_list {
+                        padding: 0 10px;
+                        // box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+                        background-color: var(--white);
+                        border-radius: 10px;
+    
+                        .stationHome_left_wrap_item {
+                            font-size: 18px;
+                            padding: 10px 14px;
+                            cursor: pointer;
+                            color: var(--text-color);
+                            border-radius: 4px;
+                            user-select: none;
+                            margin-bottom: 4px;
+
+                            &:hover {
+                                background-color: #f1efef;
+                            }
+                        }
+                        .stationHome_left_wrap_item.active {
+                            background-color: var(--primary);
+                            color: var(--white);
+                        }
+                    }
+                }
+            }
+    
+            .stationHome_right {
+                margin-left: 20px;
+                flex: 1;
+
+                .stationHome_right_list {
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    .stationHome_right_item {
+                        padding: 0 10px;
+                        padding-bottom: 5px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        color: var(--text-color);
+                        user-select: none;
+
+                        &:hover {
+                            color: var(--primary);
+                            border-bottom: 2px solid var(--primary);
+                        }
+                    }
+
+                    .stationHome_right_item.active1 {
+                        border-bottom: 2px solid var(--primary);
+                        color: var(--primary);
+                    }
+                }
+    
+                .stationHome_right_detail {
+    
+                    .stationHome_right_detail_text {
+    
+                    }
+                }
+            }
+        }
+    }
+}

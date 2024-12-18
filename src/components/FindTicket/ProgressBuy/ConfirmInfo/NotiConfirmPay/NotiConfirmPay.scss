@@ -1,0 +1,108 @@
+.notiConfirmPay_noti {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+
+    .notiConfirmPay_wrap {
+        background-color: var(--white);
+        padding:15px;
+        border-radius: 10px;
+        width: 600px;
+
+        .notiConfirmPay_wrap_title {
+            font-weight: bold;
+            line-height: 1.1;
+            color: #317eac;
+            font-size: 25px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .notiConfirmPay_wrap_content {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            padding-top: 15px;
+            border-bottom: 1px solid #ccc;
+            list-style-type: disc;
+
+            .notiConfirmPay_wrap_content-text {
+                margin-bottom: 10px;
+                font-size: 14px;
+                line-height: 18px;
+                color: var(--text-color);
+                margin-left: 30px;
+            }
+
+            .notiConfirmPay_noti_note {
+                display: flex;
+                padding: 5px;
+
+                input {
+                    margin-right: 10px;
+                }
+
+                span {
+                    font-size: 13px;
+                    color: var(--text-color);
+                    line-height:  18px;
+                    a {
+                        margin: 0 5px;
+                        color: #317eac;
+                        &:hover {
+                            color: rgb(87, 87, 218);
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                &.erorr {
+                    border: 1px solid red;
+                }
+            }
+
+
+        }
+
+       
+
+        .notiConfirmPay_wrap_button {
+            padding-top: 15px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+
+            .notiConfirmPay_wrap_btn1,
+            .notiConfirmPay_wrap_btn2 {
+                color: var(--white);
+                padding: 8px 16px;
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: bold;
+                outline: none;
+                border-radius: 5px;
+                margin-right: 10px;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+
+            .notiConfirmPay_wrap_btn1 {
+                border: 2px solid var(--primary1);
+                background-color: var(--primary1);
+            }
+
+            .notiConfirmPay_wrap_btn2 {
+
+                border: 2px solid #dd5600;
+                background-color: #dd5600;
+            }
+        }
+    }
+}

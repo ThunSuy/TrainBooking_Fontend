@@ -1,0 +1,36 @@
+.stationHome_left_wrap_show {
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px;
+    border-radius: 5px;
+    background-color: var(--white);
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+
+    .stationHome_left_wrap_show_info {
+        display: flex;
+        color: var(--text-color);
+        margin-bottom: 5px;
+        .stationHome_icon {
+            font-size: 20px;
+            width: 18px;
+        }
+
+        span {
+            font-size: 16px;
+            padding-left: 10px;
+        }
+
+        .stationHome_left_wrap_show_info-text {
+            height: 40px;
+            line-height: 20px;
+        }
+    }
+
+    img {
+        margin-top: 15px;
+        width: 100%;
+        height: 270px;
+        border-radius: 5px;
+    }
+}

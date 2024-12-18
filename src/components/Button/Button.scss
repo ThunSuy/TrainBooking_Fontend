@@ -1,0 +1,65 @@
+.button_wrap {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    
+    .btn {
+        min-width: 80px !important;
+        padding: 4px 10px;
+        background-color: var(--back-btn);
+        color: var(--white);
+        cursor: pointer;
+        border-radius: 5px;
+        border: 1px solid #faf8f9;
+        box-shadow: 1px 1px 1px 1px #d7d7d7;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        user-select: none;
+
+        span {
+            font-size: 16px;
+            display: flex;
+            color: var(--white);
+        }
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    .btn.cancel {
+        background-color: red;
+    }
+
+    .btn.success {
+        background-color: green;
+    }
+
+    .btn.refund {
+        background-color: #e55a05;
+    }
+
+
+    .btn_icon_left {
+        font-size: 14px;
+    }
+
+    .btn_icon_right {
+        font-size: 14px;
+    }
+
+    .btn_wrap_left {
+        margin-right: 4px;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn_wrap_right {
+        margin-left: 4px;
+        display: flex;
+        align-items: center;
+    }
+    
+}

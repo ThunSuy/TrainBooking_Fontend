@@ -1,0 +1,50 @@
+.tableRefund_wrapper {
+
+    .tableRefund_wrapper_title {
+        font-size: 16px;
+        color: var(--title-color);
+        font-weight: bold;
+    }
+
+    .tableRefund_con {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        .tableRefund_table {
+            border-collapse: collapse;
+            width: 100%;
+
+            .confirmInfo_table_title {
+                font-size: 16px;
+                color: #0082c0;
+                background-color: #d9edf7;
+                font-weight: bold;
+                padding: 10px 0 10px 10px;
+                text-align: left;
+                border-left: 1px solid #ccc;
+                border-right: 1px solid  #ccc;
+
+                
+            }
+
+            .tableRefund_table_th
+            {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+                font-size: 14px;
+                background-color: #eee;
+                text-align: center;
+            }
+
+            .tableRefund_table_th:nth-child(1) { width: 5%; }
+            .tableRefund_table_th:nth-child(2) { width: 20%; }
+            .tableRefund_table_th:nth-child(3) { width: 18%; }
+            .tableRefund_table_th:nth-child(4) { width: 8%; }
+            .tableRefund_table_th:nth-child(5) { width: 8%; }
+            .tableRefund_table_th:nth-child(6) { width: 8%; }
+            .tableRefund_table_th:nth-child(7) { width: 8%; }
+            .tableRefund_table_th:nth-child(8) { width: 15%; }
+            .tableRefund_table_th:nth-child(9) { width: 5%; }
+        }
+    }
+}

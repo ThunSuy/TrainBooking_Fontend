@@ -1,0 +1,50 @@
+.stationHome_right_detail {
+
+    .stationHome_right_detail_title {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        .stationHome_right_detail_icon {
+            font-size: 24px;
+            color: #A6B727;
+            margin-right: 5px;
+        }
+
+        .stationHome_right_detail_icon-to {
+            font-size: 20px;
+            color: var(--primary);
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            color: var(--text-color);
+        }
+    }
+
+    .stationHome_right_detail_name {
+        display: flex;
+        align-items: center;
+        .stationHome_right_detail_name_icon {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #DF5327;
+        }
+        span {
+            font-size: 18px;
+            color: var(--text-color);
+        }
+    }
+
+    .stationHome_right_detail_wrap {
+        padding: 10px 0 0 0;
+        
+        .stationHome_right_detail_text {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+    }
+
+    
+}

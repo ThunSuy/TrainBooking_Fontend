@@ -1,0 +1,248 @@
+.selectTrain {
+
+
+    .selectTrain_header {
+        background-color: #d9edf7;
+        padding: 15px 0;
+        border-radius: 10px;
+        user-select: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #c4e3f3;
+        }
+
+        .selectTrain_header_title {
+            font-size: 30px;
+            color: #337ab7;
+            text-align: center;
+
+            .icon {
+                margin-right: 10px;
+            }
+        }
+
+        .selectTrain_header_info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+
+            .selectTrain_header_info_left,
+            .selectTrain_header_info_right {
+                p {
+                    font-size: 18px;
+                    color: #31708f;
+                    margin-top: 2px;
+                    font-weight: bold;
+                }
+            }
+
+            .selectTrain_header_info_left {
+                p {
+                    text-align: right;
+                }
+            }
+
+            .selectTrain_header_info_right {
+                p {
+                    text-align: left;
+                }
+            }
+            
+            .selectTrain_header_info_mid {
+
+                .icon {
+                    margin: 0 60px;
+                    font-size: 50px;
+                    color: #848c91;
+                }
+            }
+        }
+
+        .selectTrain_header_time {
+            text-align: center;
+
+            span {
+                background-color: #1b809e;
+                font-size: 14px;
+                font-weight: bold;
+                color: white;
+                padding: 3px 12px;
+                border-radius: 40px;
+            }
+        }
+    }
+
+    .selectTrain_wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        user-select: none;
+
+        .selectTrain_wrap_header {
+            font-size: 20px;
+            padding: 6px 0;
+            text-align: center;
+            color: #333;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-top-right-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+        .selectTrain_wrap_left {
+            width: 60%;
+
+            .station-table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: left;
+
+
+                thead {
+                    text-align: center;
+                
+                    th {
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                        color: #333;
+                        background-color: #d9edf7;
+                        font-size: 14px;
+                    }
+                  }
+              
+                td {
+                  border: 1px solid #ddd;
+                  padding: 6px;
+                  font-size: 14px;
+                  color: #333;
+                }
+
+                .select {
+                    td:nth-child(2),
+                    td:nth-child(3),
+                    td:nth-child(4),
+                    td:nth-child(5),
+                    td:nth-child(6)
+                    {
+                        color: #31708f;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                }
+
+                td:nth-child(1),
+                td:nth-child(3),
+                td:nth-child(4),
+                td:nth-child(5),
+                td:nth-child(6) {
+                    text-align: center;
+                }
+
+                td:nth-child(1) {
+                    width: 5%;
+                }
+
+                td:nth-child(2) {
+                    width: 20%;
+                }
+
+                td:nth-child(3) {
+                    width: 13%;
+                }
+
+                td:nth-child(4) {
+                    width: 16%;
+                }
+
+                td:nth-child(5) {
+                    width: 14%;
+                }
+
+                td:nth-child(6) {
+                    width: 14%;
+                }
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              
+
+              }
+        }
+
+        .selectTrain_wrap_right {
+            width: 39%;
+
+            .selectTrain_wrap_footer {
+                background-color: #f5f5f5;
+                border: 1px solid #ddd;
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+                padding: 15px 5px 3px;
+
+                p {
+                    font-size: 12px;
+                    color: #0a4171;
+                    font-weight: bold;
+                    line-height: 16px;
+                }
+            }
+
+            .station-table2 {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: left;
+
+
+                thead {
+                    text-align: center;
+                
+                    th {
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                        color: #333;
+                        background-color: #d9edf7;
+                        font-size: 14px;
+                    }
+                  }
+              
+                td {
+                  border: 1px solid #ddd;
+                  padding: 6px;
+                  font-size: 14px;
+                  color: #333;
+                }
+
+                td:nth-child(1),
+                td:nth-child(3),
+                td:nth-child(4) {
+                    text-align: center;
+                }
+
+                td:nth-child(1) {
+                    width: 1%;
+                }
+
+                td:nth-child(2) {
+                    width: 23%;
+                }
+
+                td:nth-child(3) {
+                    width: 6%;
+                }
+
+                td:nth-child(4) {
+                    width: 7%;
+                }
+
+
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              }
+        }
+    }
+}

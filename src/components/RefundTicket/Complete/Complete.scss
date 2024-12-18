@@ -1,0 +1,30 @@
+.complete {
+
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+        .completet_noti {
+            margin: 30px 0 10px;
+            width: 350px;
+            padding: 10px 20px;
+            background-color: #d9edf7;
+            border-radius: 5px;
+            font-size: 20px;
+            color: #317eac;
+            margin-right: 20px;
+            span {
+                font-weight: bold;
+            }
+        }
+
+    .completet_btn {
+        display: flex;
+        justify-content: left;
+    }
+}

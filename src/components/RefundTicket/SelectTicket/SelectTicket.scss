@@ -1,0 +1,43 @@
+.selectTicket {
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .homeCheckTicket_noti {
+        padding: 10px 20px;
+        background-color: #d9edf7;
+        border-radius: 5px;
+        margin-top: 20px;
+        p {
+            font-size: 18px;
+            line-height: 22px;
+            color: #317eac;
+            margin-bottom: 5px;
+        }
+    }
+
+    .selectTicket_footer {
+        padding: 0 40px;
+
+        .selectTicket_footer_btn {
+            display: flex;
+            justify-content: right;
+            margin-top: -20px;
+        }
+    }
+
+    .homeCheckTicket_formErorr {
+        font-size: 18px;
+        color: #b94a48;
+        background-color: #f2dede;
+        padding: 15px 20px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,136 @@
+.historyTicket {
+
+    .historyTicket_title {
+        font-size: 26px;
+        color: #317eac;
+    }
+
+    .historyTicket_noti {
+        padding: 10px 20px;
+        background-color: #f2dede;
+        border-radius: 5px;
+        margin: 15px 0;
+        user-select: none;
+        p {
+            font-size: 18px;
+            line-height: 22px;
+            color: #b94a48;
+            margin-bottom: 5px;
+        }
+    }
+
+    .detailHistory {
+        margin-top: 10px;
+
+        .station-table {
+            border-collapse: collapse;
+            text-align: left;
+  
+            thead {
+                text-align: center;
+            
+                th {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    color: #333;
+                    background-color: #d9edf7;
+                    font-size: 14px;
+                }
+              }
+          
+            td {
+              border: 1px solid #ddd;
+              padding: 6px;
+              font-size: 14px;
+              color: #333;
+            }
+  
+            tr:nth-child(even) {
+              background-color: #f9f9f9;
+            }
+  
+            td:nth-child(1),
+            td:nth-child(4),
+            td:nth-child(5),
+            td:nth-child(6),
+            td:nth-child(7),
+            td:nth-child(10),
+            td:nth-child(9){
+                text-align: center;
+            }
+  
+            td:nth-child(1) {
+              width: 8%;
+            }
+
+            td:nth-child(2) {
+                width: 15%;
+              }
+
+              td:nth-child(3) {
+                width: 11%;
+              }
+
+              td:nth-child(4),
+              td:nth-child(5),
+              td:nth-child(6) {
+                width: 10%;
+              }
+
+              td:nth-child(7){
+                width: 6%;
+              }
+        }
+    }
+
+    .historyTicket_wrap {
+
+        .historyTicket_wrap_list {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            border-radius: 5px;
+
+            .historyTicket_wrap_item {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                justify-content: space-between;
+
+                &:hover {
+                    border-color: #317eac;
+                }
+
+                .historyTicket_wrap_item_title {
+                    font-size: 18px;
+                    color: #555;
+                    margin-bottom: 6px;
+                    flex: 1;
+                    span {
+                        font-weight: bold;
+                        color: #317eac;
+                    }
+                }
+
+                .historyTicket_wrap_item_btn {
+                    text-align: center;
+                    span {
+                        font-size: 16px;
+                        color: var(--white);
+                        background-color: rgb(8, 202, 8);
+                        padding: 5px 12px;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        border: 1px solid rgb(8, 202, 8);
+                        cursor: pointer;
+
+                        &:hover {
+                            opacity: 0.9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.resultTrip {
+    display: flex;
+    
+    .resultTrip_wrapper {
+        flex: 1;
+        margin-right: 30px;
+
+        .resultTrip_wrapper_container {
+            margin-bottom: 30px;
+
+            .resultTrip_title-700 {
+                font-weight: 700;
+                font-size: 17px;
+            }
+        
+            .resultTrip_title {
+                background-color: var(--primary1);
+                background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+                padding: 5px 40px 5px 10px;
+                color: #fff;
+                font-size: 16px;
+            }
+        
+            .resultTrip_trip {
+                padding: 20px 0 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        
+            .resultTrip_car {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 4px 0 10px 20px;
+            }
+    
+            
+        }    
+        
+        .resultTrip_instruct {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            user-select: none;
+            pointer-events: none;
+            .instruct_top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #ccc;
+                padding: 10px 100px;
+                .instruct_top_wrap {
+                    display: flex;
+                    span {
+                        margin-left: 10px;
+                        font-size: 16px;
+                        color: var(--text-color);
+                    }
+                }
+            }
+
+            .instruct_bot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 60px;
+                .instruct_bot_wrap {
+                    display: flex;
+                    align-items: center;
+
+                    .instruct_bot_wrap_text {
+                        font-size: 16px;
+                        color: var(--text-color);
+                        margin-left: 5px;
+                    }
+                    
+                    .instruct_bot_wrap_left {
+                        height: 35px;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 15px;
+                        
+                    
+                        .TNM56_seat_con-left {
+                            height: 100%;
+                            width: 5px;
+                            background-color: #948a54;
+                            border-radius: 2px;
+                        }
+                    }
+
+                    .instruct_bot_wrap_right {
+                        width: 38px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        height: 40px;
+                        padding-top: 4px;
+                        .item_bot {
+                            border-bottom: 3px solid #385d8a;
+                            border-left: 3px solid #385d8a;
+                            border-right: 3px solid #385d8a;
+                            border-bottom-left-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            height: 10px;
+                            line-height: 30px;
+                            width: 100%;
+                            position: absolute;
+                            bottom: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

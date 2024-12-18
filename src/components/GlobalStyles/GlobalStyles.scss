@@ -1,0 +1,70 @@
+// @import 'normalize.css';
+// @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+:root {
+    --primary: #0091d4;
+    --primary1: #2fa4e7;
+    --back-btn: #0587b8;
+    --backgr-primary: #f0f1f3;
+    --black: #000;
+    --text-color: #555;
+    --white: #fff;
+    --borderr-color : #ccc;
+    --title-color: #e55a05;
+
+    --color-car-full: #df5327;
+    --color-car-seats : #80B5D6;
+    --color-car-active: #A6B727;
+    
+    --backgr-seat : #DF5327;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    // position: relative;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+@mixin contentScss(){
+    background-color: var(--white);
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+// body {
+//     font-family: 'IBM Plex Sans';
+//     font-size: 1.6rem;
+//     line-height: 1.5;
+//     color: var(--text-color);
+//     text-rendering: optimizeSpeed;
+// }
+
+// button,
+// input,
+// [tabindex] {
+//     outline: none;
+//     border: none;
+// }
+
+// a[href] {
+//     color: var(--text-color);
+//     text-decoration: none;
+// }

@@ -1,0 +1,32 @@
+.payTicket_header {
+    padding: 10px 0;
+    margin-bottom: 10px;
+
+    .payTicket_header_list {
+        display: flex;
+        width: 100%;
+
+        .payTicket_header_item {
+            border-top: 1px solid #ccc;
+            flex: 1;
+            font-size: 17px;
+            text-align: center;
+            padding-top: 12px;
+            color: var(--text-color);
+            position: relative;
+
+
+            .payTicket_header_item_image {
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                top: -10px;
+                color: red;
+            }
+        }
+
+        .payTicket_header_item.active_text {
+            color: var(--primary);
+        }
+    }
+}

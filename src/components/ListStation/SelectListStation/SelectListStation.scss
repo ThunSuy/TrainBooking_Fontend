@@ -1,0 +1,88 @@
+.selectListStation {
+    flex-wrap: wrap;
+    display: flex;
+    margin-right: -8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: -5px;
+    border-radius: 5px;
+
+    &.bgr1 {
+        border: 1px solid rgb(241, 114, 114);
+    }
+
+    &.bgr2 {
+        border: 1px solid rgb(97, 97, 243);
+    }
+
+    &.bgr1 .selectListStation_item {
+        border: 1px solid rgb(241, 114, 114);
+
+        .selectListStation_item_icon {
+            color: rgb(241, 114, 114);
+            font-size: 18px;
+        }
+
+        p {
+            margin-left: 8px;
+            font-size: 20px;
+            color: rgb(241, 114, 114);
+        }
+    }
+
+    &.bgr2 .selectListStation_item {
+        border: 1px solid rgb(97, 97, 243);
+
+        .selectListStation_item_icon {
+            color: #337ab7;
+            font-size: 18px;
+        }
+
+        p {
+            margin-left: 8px;
+            font-size: 20px;
+            color: #337ab7;
+        }
+    }
+
+    .selectListStation_item {
+        width: 16%;
+        user-select: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 12px 20px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-right: 7px;
+        background-color: white;
+
+        &:hover {
+            background-color: #ecebeb;
+        }
+
+        &.active {
+            background-color: #337ab7;
+
+            .selectListStation_item_icon {
+                color: white;
+            }
+    
+            p {
+                color: white;
+            }
+        }
+
+        &.active1 {
+            background-color: rgb(241, 114, 114);
+
+            .selectListStation_item_icon {
+                color: white;
+            }
+    
+            p {
+                color: white;
+            }
+        }
+    }
+}

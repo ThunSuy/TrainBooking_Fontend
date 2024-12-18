@@ -1,0 +1,68 @@
+.cartTickets {
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 236.4px;
+
+    .cartTickets_title {
+        color: var(--primary);
+        padding: 10px 30px 10px 15px;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+
+        .cartTickets_title-icon {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .cartTickets_title-name {
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+
+    .cartTickets_noCart {
+        font-size: 16px;
+        text-align: center;
+        color: red;
+        font-weight: 600;
+        padding: 15px 0;
+    }
+
+    .cartTickets_wrap {
+        .TicketInCart {
+            display: flex;
+            padding: 3px 15px;
+            border-bottom: 1px solid var(--borderr-color);
+        
+            .TicketInCart_info {
+                flex: 1;
+        
+                .TicketInCart_info-text {
+                    margin-bottom: 1px;
+                    font-size: 14px;
+                    color: var(--text-color);
+                }
+            }
+        
+            .TicketInCart_icon {
+                cursor: pointer;
+                background: url(/src//assets/img/del30.png) center no-repeat;
+                color: #fff;
+                width: 30px;
+                height: 25px;
+                margin-top: 19px;
+            }
+        }
+
+        .cartTickets_wrap-text {
+            color: var(--primary);
+            font-size: 14px;
+            margin: 8px 0;
+            text-align: center;
+            user-select: none;
+        }
+    }
+}
+

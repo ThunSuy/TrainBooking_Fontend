@@ -1,0 +1,83 @@
+.TypeSeat_GN28 {
+
+
+    .TypeSeat_GN28_wrap {
+        margin-top: 40px;
+
+        .GN28_title {
+            display: flex;
+            justify-content: center;
+            padding-left: 32px;
+
+            .GN28_title-text {
+                font-size: 14px;
+                width: 80px;
+                padding: 10px 0;
+                color: var(--text-color);
+                text-align: center;
+            }
+        }
+
+
+        .GN28_container {
+            display: flex;
+            justify-content: center;
+
+            .GN28_container_left {
+
+                .GN28_container_left-text{
+                    font-size: 14px;
+                    color: var(--text-color);
+                    height: 40px;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    padding-right: 15px;
+                }
+             }
+
+             .GN28_container_right {
+
+                .GN28_container_right_list {
+                    display: flex;
+                    align-items: center;
+
+                    .GN28_container_right_item {
+                        width: 38px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        height: 40px;
+                        padding-top: 4px;
+                        
+
+                        .item_bot {
+                            border-bottom: 3px solid #385d8a;
+                            border-left: 3px solid #385d8a;
+                            border-right: 3px solid #385d8a;
+                            border-bottom-left-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            height: 10px;
+                            line-height: 30px;
+                            width: 100%;
+                            position: absolute;
+                            bottom: 2px;
+                        }
+                    }
+
+                    .GN28_container_right_item:nth-child(even) {
+                        border-right: 3px solid #385d8a;
+                    }
+
+                    .GN28_container_right_item:nth-child(odd) {
+                        border-left: 3px solid #385d8a;
+                        margin-right: 4px;
+                    }
+                }
+             }
+        }
+    }
+
+
+}

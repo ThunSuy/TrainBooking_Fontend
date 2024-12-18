@@ -1,0 +1,113 @@
+.payTicket_wrap {
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .payTicket_con {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        .payTicket_table {
+            border-collapse: collapse;
+            width: 100%;
+
+            .payTicket_table_title {
+                font-size: 18px;
+                color: #0082c0;
+                font-weight: bold;
+                padding: 10px 0 10px 10px;
+                text-align: left;
+                border-left: 1px solid #ccc;
+                border-right: 1px solid  #ccc;
+                background-color: #d9edf7;
+                text-align: left;
+            }  
+
+            .payTicket_table_th {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+                font-size: 14px;
+                background-color: lavender;
+                text-align: center;
+            }
+            
+            .payTicket_table_th:nth-child(1) { width: 25%; }
+            .payTicket_table_th:nth-child(2) { width: 20%; }
+            .payTicket_table_th:nth-child(3) { width: 10%; }
+            .payTicket_table_th:nth-child(4) { width: 10%; }
+            .payTicket_table_th:nth-child(5) { width: 10%; }
+            .payTicket_table_th:nth-child(6) { width: 5%; }
+        }
+        
+        .payTicket_table_footer {
+            background-color: #d9edf7;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 8px;
+
+            .payTicket_table_footer-btn {
+                padding: 5px 10px;
+                font-size: 12px;
+                color: var(--text-color);
+                cursor: pointer;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                background-image: -webkit-linear-gradient(#fff, #fff 60%, #f5f5f5);
+                background-image: -o-linear-gradient(#fff, #fff 60%, #f5f5f5);
+                background-image: linear-gradient(#fff, #fff 60%, #f5f5f5);
+                border: 1px solid #e6e6e6;
+
+                .payTicket_table_footer-btn-icon {
+                    font-size: 14px;
+                    margin-right: 5px;
+                }
+
+                &:hover {
+                    border-color: #ccc;
+                }
+            }
+
+            .payTicket_table_footer-text {
+                font-size: 18px;
+                color: var(--text-color);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.formInfoPeople {
+    width: 100%;
+    padding: 10px 80px ;
+
+    .formInfoPeople_erorr {
+        color: #b94a48;
+        background-color: #FCF8E3;
+        padding: 15px;
+        margin-bottom: 10px;
+        .formInfoPeople_erorr_title {
+            margin-bottom: 4px;
+    
+            .formInfoPeople_erorr_icon {
+                font-size: 16px;
+            }
+    
+            span {
+                font-size: 16px;
+                font-weight: bold;
+                margin-left: 3px;
+            }
+        }
+    
+        .formInfoPeople_erorr_text {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+    }
+}

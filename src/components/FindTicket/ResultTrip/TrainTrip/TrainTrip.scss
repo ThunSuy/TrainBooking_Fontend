@@ -1,0 +1,181 @@
+:root {
+    --backgr_trip : #999999;
+}
+
+.TrainTrip_bgColor-primary {
+    background-color: var(--primary);
+}
+
+.TrainTrip_bgColor-trip {
+    background-color: var(--backgr_trip);
+}
+
+.TrainTrip {
+    padding: 0 8px 0 10px;    
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 50px;
+
+
+
+    &:hover .TrainTrip_wrap .TrainTrip_name,
+    &:hover .TrainTrip_wrap .TrainTrip_circle .TrainTrip_circle_draw {
+        background-color: #FFCC00;
+    }
+
+    .TrainTrip_wrap {
+        padding: 5px;
+        color: var(--text-color);
+        border-radius: 20px;
+        text-align: center;
+        height: 120px;
+        width: 120px;
+        position: relative;
+        z-index: 99;
+
+        .TrainTrip_name {
+            padding: 1.5px 0;
+            border-radius: 10px;
+            background-color: #fff;
+            display: inline-block;
+            font-size: 10px;
+            font-weight: 700;
+            width: 44px;
+        }
+    
+        .TrainTrip_info {
+            height: 70px;
+            width: 100%;
+            border-radius: 10px;
+            background-color: #fff;
+            font-size: 9px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            margin: 3px 0;
+    
+            .TrainTrip_time {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 2px;
+    
+                
+                .TrainTrip_time_name {
+                    font-weight: 700;
+                    font-size: 10px;
+                }
+    
+                .TrainTrip_text {
+                    font-size: 10px;
+                }
+            }
+    
+            .TrainTrip_slot {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+    
+                
+                .TrainTrip_slot_num1 {
+                    text-align: left;
+                }
+    
+                .TrainTrip_slot_num2{
+                    text-align: right;
+                }
+    
+                .TrainTrip_text {
+                    margin-bottom: 2px;
+                }
+    
+                .TrainTrip_slot_num_sl1 {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-left: 5px;
+                }
+    
+                .TrainTrip_slot_num_sl2 {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-right: 5px;
+                }
+            }
+        }
+    
+        .TrainTrip_circle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 5px;
+    
+            .TrainTrip_circle_draw {
+                height: 20px;
+                width: 20px;
+                border-radius: 10px;
+                background-color: #fff;
+                margin: 0 12px;
+            }
+        }
+    }
+
+    .TrainTrip_footer {
+        height: 0;
+        width: 0;
+        border-bottom: 62px solid #000;
+        border-left: 62px solid transparent;
+        border-right: 62px solid transparent;
+        position: absolute;
+        z-index: 1;
+        margin-left: -2px;
+        bottom: -31px;
+    }
+
+    .TrainTrip_footer-2 {
+        height: 0;
+        width: 0;
+        border-bottom: 42px solid #fff;
+        border-left: 42px solid transparent;
+        border-right: 42px solid transparent;
+        position: absolute;
+        margin-left: 18px;
+        z-index: 2;
+        bottom: -24px;
+    }
+
+    .TrainTrip_footer-3 {
+        height: 0;
+        width: 0;
+        border-bottom: 42px solid #000;
+        border-left: 42px solid transparent;
+        border-right: 42px solid transparent;
+        position: absolute;
+        margin-left: 18px;
+        z-index: 3;
+        bottom: -17px;
+    }
+
+    .TrainTrip_footer-4 {
+        height: 0;
+        width: 0;
+        border-bottom: 32px solid #fff;
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        position: absolute;
+        margin-left: 28px;
+        z-index: 4;
+        bottom: -10px;
+    }
+
+    .TrainTrip_footer-5 {
+        height: 0;
+        width: 0;
+        border-bottom: 32px solid #000;
+        border-left: 32px solid transparent;
+        border-right: 32px solid transparent;
+        position: absolute;
+        margin-left: 28px;
+        z-index: 5;
+        bottom: -3px;
+    }
+}

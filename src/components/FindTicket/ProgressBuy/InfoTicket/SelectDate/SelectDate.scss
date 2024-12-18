@@ -1,0 +1,78 @@
+.selectDate {
+    position: fixed;
+    overflow: hidden;
+    top : 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .selectDate_wrap {
+        width: 240px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+        .selectDate_wrap_title {
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f7f7f7;
+            padding: 10px;
+            color: #0d0b0b;
+        }
+
+        .selectDate_wrap_info {
+            padding: 10px;
+            span {
+                font-size: 18px;
+                color: var(--text-color);
+                line-height: 22px;
+            }
+        }
+
+        .selectDate_wrap_date {
+            display: flex;
+            margin-left: 10px;
+            padding: 0 0 5px 0;
+
+            span {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0 10px;
+            }
+          
+            select {
+              padding: 2px 3px;
+              font-size: 14px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+          
+              &:focus {
+                outline: none;
+                border-color: var(--primary);
+              }
+            }
+          }
+
+        .selectDate_wrap_button {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+            button {
+                font-size: 14px;
+                color: white;
+                padding: 3px 10px;
+                cursor: pointer;
+                background-color: #0587b8;
+                border-radius: 4px;
+                border: 1px solid var(--primary);
+                outline: none;
+            }
+        }
+    }
+}

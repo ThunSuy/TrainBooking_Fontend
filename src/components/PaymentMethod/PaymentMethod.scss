@@ -1,0 +1,73 @@
+.formInfoPeople_pay {
+    .formInfoPeople_header {
+        font-size: 16px;
+        color: var(--title-color);
+        font-weight: bold;
+    }
+
+    .formInfoPeople_pay_list {
+        padding: 20px 0;
+
+        .formInfoPeople_pay_item {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+            border-top: 1px solid #ccc;
+
+            &.erorr {
+                border-left: 1px solid red;
+            border-right: 1px solid red;
+            border-top: 1px solid red;
+            }
+
+            &.formInfoPeople_pay_item:first-child{
+                border-top-right-radius: 6px;
+                border-top-left-radius: 6px;
+                
+            }
+            &.formInfoPeople_pay_item:last-child{
+                border-bottom-right-radius: 6px;
+                border-bottom-left-radius: 6px;
+                border-bottom: 1px solid #ccc;
+
+                &.erorr {
+                    border-bottom: 1px solid red;
+                }
+            }
+            input {
+                width: 18px;
+                height: 18px;
+                cursor: pointer;
+            }
+
+            .info_logo {
+                margin-left: 15px;
+                margin-right: 15px;
+                width: 100px;
+                height: 100%;
+
+                cursor: pointer;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .formInfoPeople_pay_item-info {
+                flex: 1;
+
+                .info_title {
+                    color: #3a87ad;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+
+                .info_text {
+                    color: var(--text-color);
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

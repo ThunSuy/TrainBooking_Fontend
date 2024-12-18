@@ -1,0 +1,10 @@
+@import '../../components/GlobalStyles/GlobalStyles.scss';
+.app {
+    background-color: var(--backgr-primary);
+    padding: 25px 0;
+
+
+    .app_content {
+        @include contentScss();
+    }
+}

@@ -1,0 +1,42 @@
+.regulation {
+    margin-top: 20px;
+    .regulation_header {
+        background-color: #2fa4e7;
+        padding: 12px ;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        color: var(--white);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .regulation_wrap {
+        border: 1px solid #ccc;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 10px;
+        .regulation_list {
+            color: var(--text-color);
+
+            .regulation_item {
+                font-size: 18px;
+                line-height: 24px;
+                margin: 10px 0;
+
+                .regulation_item-item  {
+                    padding-left: 20px;
+                    p {
+                        margin: 6px 0;
+                    }
+                }
+            }
+
+            .regulation_item:first-child {
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    
+}

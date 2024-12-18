@@ -1,0 +1,68 @@
+.buyCuccessTicket {
+
+    .payTicket_wrap_info {
+        background: url(/src/assets/img/label_bg.png) right bottom no-repeat #0082c4;
+        padding: 7px 40px 7px 10px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    .buyCuccess_header {
+        padding: 20px;
+
+        .buyCuccess_title {
+            font-size: 18px;
+            color: #317eac;
+            margin-bottom: 10px;
+        }
+        
+        .buyCuccess_WrapID {
+            background-color: #f2dede;
+            width: 400px;
+            padding: 8px 0 8px 12px;
+            border-radius: 5px;
+    
+            .buyCuccess_WrapID_text {
+                color: #317eac;
+                font-size: 18px;
+                margin-bottom: 4px;
+                span {
+                    color: #0188C8;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                a {
+                    color: #1998d8;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: rgb(43, 43, 212);
+                    }
+                }
+            }
+        }
+    }
+
+    
+
+    
+
+    .buyCuccessTicket_footer {
+        padding: 10px 80px;
+        .buyCuccessTicket_pay {
+
+        }
+        .buyCuccessTicket_info {
+        
+        }
+    
+        .buyCuccess_sup {
+            font-size: 16px ;
+            color: #317eac;
+            margin-bottom: 10px;
+        }
+    }
+}
+

@@ -1,0 +1,41 @@
+.resultTrain_item {
+    background-color: #d9edf7;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    &:hover {
+        background-color: #c4e3f3;
+    }
+
+    .resultTrain_item_header {
+        font-size: 20px;
+        color: #31708f;
+        margin-bottom: 8px;
+        .icon {
+            margin-right: 8px;
+        }
+
+        span {
+
+        }
+    }
+
+    .resultTrain_item_time {
+        background-color: #1b809e;
+        font-size: 14px;
+        color: white;
+        padding: 3px 8px;
+        border-radius: 40px;
+        font-weight: bold;
+    }
+
+    .resultTrain_item_text {
+        color: #31708f;
+        font-size: 14px;
+        margin-top: 1px;
+    }
+}

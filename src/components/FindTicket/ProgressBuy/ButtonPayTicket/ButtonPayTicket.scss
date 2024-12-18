@@ -1,0 +1,13 @@
+.formInfoPeople_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formInfoPeople_button.btnCenter {
+    justify-content: center;
+
+    div {
+        margin: 0 8px;
+    }
+}

@@ -70,4 +70,4 @@ Before you begin, ensure you have the following installed on your system:
    
 ---   
 ## Backend
-**Git**: [Backend here]([https://git-scm.com/](https://github.com/ThunSuy/TrainBooking_Backend/))
+**Git**: [Backend here](https://github.com/ThunSuy/TrainBooking_Backend/)

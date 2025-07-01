@@ -67,3 +67,7 @@ Before you begin, ensure you have the following installed on your system:
 4. **Open the application:**
 
    By default, the app will be available at [http://localhost:3000](http://localhost:3000).
+   
+---   
+## Backend
+**Git**: [Backend here]([https://git-scm.com/](https://github.com/ThunSuy/TrainBooking_Backend/))
